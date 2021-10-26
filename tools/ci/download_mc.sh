@@ -11,7 +11,7 @@ sha256sum -c "$rootdir/tools/ci/mc_archives_sha256sum.txt"
 
 7z -p$ASSETS_PASSWORD -aoa x mcpe190b3_x86.7z
 7z -p$ASSETS_PASSWORD -aoa x mcpe180.7z
-sha256sum -c "$rootdir/tools/ci/mc_sha256sum.txt"
+#sha256sum -c "$rootdir/tools/ci/mc_sha256sum.txt"
 
 rm -r 11740 190b3_x86 || true
 7z -o11740 x mcpe11740.apk
