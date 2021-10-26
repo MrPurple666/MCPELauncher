@@ -13,8 +13,8 @@ sha256sum -c "$rootdir/tools/ci/mc_archives_sha256sum.txt"
 7z -p$ASSETS_PASSWORD -aoa x mcpe180.7z
 sha256sum -c "$rootdir/tools/ci/mc_sha256sum.txt"
 
-rm -r 1141 190b3_x86 || true
-7z -o1141 x mcpe1141.apk
+rm -r 11740 190b3_x86 || true
+7z -o11740 x mcpe11740.apk
 # 180b3_x86: only used for linking against its libs
 7z -o190b3_x86 x mcpe190b3_x86.apk lib
 # 180: only used for xbox interop
